@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    /* Uma fonte um pouco mais elegante para receitas */
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.recipe-card {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px, 16px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    display: flex;
+
+    & .card-img {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+.recipe-content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    & .recipe-title {
+        font-size: 24px;
+        color: #4a4a4a;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    & .recipe-desc {
+        font-size: 1rem;
+        color: #666;
+    }
+}
+
+
+.recipe-card2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px, 16px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    display: flex;
+
+    & .card-img2 {
+        width: 100%;
+    }
+}
+
+.recipe-content2 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    & .tittle-queijo {
+        font-size: 24px;
+        color: #4a4a4a;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    & .desc-queijo{
+          font-size: 1rem;
+        color: #666;
+    }
+}
